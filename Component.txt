@@ -1,0 +1,20 @@
+1) Components are independent and reusable bits of code. 
+2) They serve the same purpose as JavaScript functions, but work in isolation and return HTML.
+3) Components come in two types, Class components and Function components
+4) A Function component also returns HTML, and behaves much the same way as a Class component, but Function components can be written using much less code.
+5) Components can be nested inside other components.
+
+Example Of Functional Component:
+
+function Welcome(props){
+    return <h1>Hello, {props.name} </h1>
+}
+
+Example Of Class Component:
+
+class Welcome extends React.Component
+{
+    render(){
+        return <h1>Hello, {this.props.name} </h1>
+    }
+}
