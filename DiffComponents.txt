@@ -1,0 +1,17 @@
+Functional Components:
+1) Simple Functions.
+2) They are extensively used components.
+3) They dont have 'this' keyword.
+4) A functional component is just a plain JavaScript function that accepts props as an argument and returns a React element.
+5) There is no render method used in functional components.
+6) Also known as Stateless components as they simply accept data and display them in some form, that they are mainly responsible for rendering UI.
+7) React lifecycle methods (for example, componentDidMount) cannot be used in functional components.
+
+Class Components:
+1) They are more feature rich components.
+2) They deal with complex UI logic.
+3) They provide lifecycle hooks.
+4) A class component requires you to extend from React.Component and create a render function which returns a React element.
+5) It must have the render() method returning HTML.
+6) Also known as Stateful components because they implement logic and state.
+7) React lifecycle methods can be used inside class components (for example, componentDidMount).
